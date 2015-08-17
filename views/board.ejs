@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GA Lost & Found</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/sweetalert-master/dist/sweetalert.css">
+  <link rel='stylesheet' href='/board-style.css'>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="http://localhost:3000/lnf.gif" class='img-responsive' id="lnf-img"> 
+      </div>
+      <div class="col-md-6" id="main">
+        <div class="logo"> <!-- LOGO -->
+          <img src="http://localhost:3000/logo.png" class='img-responsive' id="logo-img"> 
+          <!-- needs to be edited later for non local host such as DO -->
+        </div>
+        	<div class="buttns">
+        <a href="/lost" class="btn btn-default home" id='lost'><p id='lost-text'> Lost </p> </a>
+        <a class="btn btn-default home" id='found'><p id='found-text'> Found </p></a>
+    		</div>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/sweetalert-master/dist/sweetalert.min.js"></script>
+    <script src="/script-lf.js" type="text/javascript"></script>    
+</body>
+</html>
+
+

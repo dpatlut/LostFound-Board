@@ -1,0 +1,35 @@
+body{
+	background-image:url(http://localhost:3000/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#logo-img{
+	margin:auto;
+}
+
+#main{
+	    margin-top: 15%;
+}
+
+.buttns{
+	text-align: center;
+}
+
+.home{
+	border: 9px ridge #BA9561;
+}
+
+#lost-text{
+	font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#found-text{
+	font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: monospace;
+}
