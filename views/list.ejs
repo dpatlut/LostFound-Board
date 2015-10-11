@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GA Lost & Found</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!--   <link rel="stylesheet" href="/animate.css">
+ -->  <link rel='stylesheet' href='/list-style.css'>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+        <img src="http://localhost:3000/lnf.gif" class='img-responsive' id="lnf-img"> 
+      </div>
+    <div class="col-md-10" id="main">
+        <% list.forEach(function(post){ %>
+  <div class="note-container">
+  
+  </div>
+    <%})%> 
+    </div>      
+      <div class="col-md-1">
+        <form action='/newpost' method='GET'>
+        <button class="btn btn-warning btn-lg"> Create New Post </button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/script.js" type="text/javascript"></script>    
+</body>
+</html>

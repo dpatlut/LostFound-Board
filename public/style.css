@@ -1,0 +1,94 @@
+body{
+	background-image:url(background.jpg);
+	background-repeat: no-repeat;
+	/*font-family: Burnstown Dam;*/
+	margin-bottom: 60px;
+}
+
+.container{
+
+}
+
+
+
+/* Main Page /index */
+#main{
+	    margin-top: 8%;
+}
+
+#login-text{
+	font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#signup-text{
+	font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#logo-img{
+	margin:auto;
+}
+
+#login{
+	margin-right: 25%;
+}
+
+.home{
+	border: 9px ridge #BA9561;
+}
+
+.login-signup{
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  border-top: 4px solid black;
+  text-align: center;
+}
+
+.footer p{
+}
+
+a{
+	color:black;
+}
+
+a :hover{
+	color:white;
+}
+
+
+
+.search{
+
+}
+
+.interactive{
+	margin: 0 auto;
+	margin-right: 1%
+}
+
+
+.navigation{
+	height: 60px;
+	background-color: rgba(211,172,115,0.5);
+}
+
+.github{
+	padding-top: 6px;
+}
+

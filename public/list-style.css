@@ -1,0 +1,37 @@
+body{
+	background-image:url(background.jpg);
+	background-size: cover;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	font-family: monospace;
+}
+
+
+
+
+#main{
+	text-align: center;
+	margin-top: 2%;
+}
+
+.detail-text{
+	display:none;
+}
+
+#comment{
+	margin-bottom: 2%;
+}
+
+.comments-title{
+	text-align: justify;
+}
+
+
+.note-container{
+	background-image: url(Note-wall.jpg)
+}
+
+
+.panel{
+	background-color: transparent;
+}
