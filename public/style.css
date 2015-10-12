@@ -1,17 +1,8 @@
-body{
-	background-image:url(background.jpg);
-	background-repeat: no-repeat;
-	/*font-family: Burnstown Dam;*/
-	margin-bottom: 60px;
+.enter{
+	text-align:center;
+	font-size:21px;
 }
 
-.container{
-
-}
-
-
-
-/* Main Page /index */
 #main{
 	    margin-top: 8%;
 }
@@ -38,57 +29,16 @@ body{
 	margin-right: 25%;
 }
 
-.home{
-	border: 9px ridge #BA9561;
-}
-
-.login-signup{
-}
-
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  border-top: 4px solid black;
-  text-align: center;
-}
-
-.footer p{
-}
-
-a{
-	color:black;
-}
-
-a :hover{
-	color:white;
-}
-
-
-
-.search{
-
-}
-
-.interactive{
-	margin: 0 auto;
-	margin-right: 1%
-}
-
-
-.navigation{
+.navbar-btn{
 	height: 60px;
-	background-color: rgba(211,172,115,0.5);
-}
-
-.github{
-	padding-top: 6px;
+    background-color: transparent;
+    border-top: none;
+    border-bottom: none;
+    font-size: 21px;
+    border-radius: 0px;
+    color: #FFFFFF;
+    border-color: #1E0800;
+    border: 1px solid white;
+    margin:0 auto;
 }
 

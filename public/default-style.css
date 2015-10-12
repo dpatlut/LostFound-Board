@@ -1,0 +1,64 @@
+
+/*Html/body----------------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+	background-image:url(background.jpg);
+	background-repeat: no-repeat;
+	/*font-family: Burnstown Dam;*/
+	margin-bottom: 60px;
+}
+
+/*Links----------------*/
+a{
+	color:black;
+}
+
+a:hover{
+	text-decoration: none;
+	color:black;
+}
+
+/*Images----------------*/
+img{
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
+
+/*Header----------------*/
+.search{
+	margin-right: 1%
+}
+
+.interactive{
+	margin: 0 auto;
+	margin-left: 1%
+}
+
+
+.navigation{
+	height: 60px;
+	background-color: rgba(211,172,115,0.5);
+}
+
+
+/*Footer----------------*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+.github{
+	padding-top: 6px;
+	border-top: 3px solid black;
+}
+
+
+

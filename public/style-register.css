@@ -1,12 +1,4 @@
-body{
-	background-image:url(http://localhost:3000/background.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	font-family: monospace;
-}
-
 #main{
-
 	background-color: #B48951;
     padding: 50px;
     border-radius: 20px;

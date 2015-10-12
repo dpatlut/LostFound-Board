@@ -52,7 +52,7 @@ passport.deserializeUser(function(user, done) {
 
 app.post('/login', passport.authenticate('local', { 
   failureRedirect: '/accessfailed',
-  successRedirect: '/board'
+  successRedirect: '/lost'
 }));
 
 var loginCheck = function(req , res){
@@ -68,7 +68,7 @@ app.get('/login', function(req, res) {
 
 app.get('/user' , function(req,res){
 	loginCheck(req,res);
-	res.render('board.ejs' , {user : req.user})
+	res.render('lost.ejs' , {user : req.user})
 });
 
 //-------------------------------- ROUTES
@@ -80,7 +80,7 @@ app.get('/' , function(req,res){
 
 //Register Page
  app.get('/register', function(req, res) {
-        res.render('register.ejs', { message: req.flash('Register Page Rendered') });
+        res.render('register.ejs');
     });
  app.post('/register' , function(req,res){
  	var name = req.body.name;
@@ -99,12 +99,6 @@ app.get('/' , function(req,res){
 });
 
 
-//Board Page
-app.get('/board' , function(req,res){
-  //console.log(req.user.user); CHECK USER ACTIVITY
-  loginCheck(req,res);
-	res.render('board.ejs')
-});
 
 //Lost Page
 app.get('/lost' , function(req,res){
